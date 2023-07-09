@@ -196,4 +196,9 @@ figure {
 .exp {
   display: flex;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
 }
