@@ -141,7 +141,7 @@ footer p {
 
 
 /* -------  Media Query ------- */
-@media all and (min-width: 640px){
+@media all and (min-width: 480px){
   #stretch {
     display: flex;
   }
@@ -167,11 +167,12 @@ footer p {
 .Sitem {
   display: block;
   width: 15%;
-
+  
 }
 
 #button {
-  width: 160px;
+  color: #ff385c;
+  overflow: hidden;
 }
 
 .imgs2 {
@@ -210,4 +211,29 @@ form input{
   width: 100%;
 }
 
+}
+
+@media all and (min-width: 490px){
+  #button {
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 520px){
+  #button {
+    width: 60%;
+  }
+}
+
+@media all and (min-width: 540px){
+  #button {
+    width: 80%;
+  }
+}
+
+@media all and (min-width: 560px){
+  #button {
+    width: 100%;
+    color: white;
+  }
 }
