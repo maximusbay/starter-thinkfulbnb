@@ -171,6 +171,7 @@ footer p {
 }
 
 #button {
+  width: 15%;
   color: #ff385c;
   overflow: hidden;
 }
