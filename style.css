@@ -216,13 +216,19 @@ form input{
 
 @media all and (min-width: 490px){
   #button {
-    width: 40%;
+    width: 25%;
+  }
+}
+
+@media all and (min-width: 505px){
+  #button {
+    width: 35%;
   }
 }
 
 @media all and (min-width: 520px){
   #button {
-    width: 60%;
+    width: 50%;
   }
 }
 
