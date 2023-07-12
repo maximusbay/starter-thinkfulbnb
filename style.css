@@ -4,6 +4,7 @@ fieldset {
 
 body {
   font-family: "Lato", sans-serif;
+  width: fit-content;
 }
 
 h2 {
@@ -72,6 +73,7 @@ header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
+  width: 100%
 }
 
 .logo {
@@ -171,8 +173,7 @@ footer p {
 }
 
 #button {
-  width: 15%;
-  color: #ff385c;
+ 
   overflow: hidden;
 }
 
@@ -212,35 +213,4 @@ form input{
   width: 100%;
 }
 
-}
-
-@media all and (min-width: 490px){
-  #button {
-    width: 25%;
-  }
-}
-
-@media all and (min-width: 505px){
-  #button {
-    width: 35%;
-  }
-}
-
-@media all and (min-width: 520px){
-  #button {
-    width: 50%;
-  }
-}
-
-@media all and (min-width: 540px){
-  #button {
-    width: 80%;
-  }
-}
-
-@media all and (min-width: 560px){
-  #button {
-    width: 100%;
-    color: white;
-  }
 }
